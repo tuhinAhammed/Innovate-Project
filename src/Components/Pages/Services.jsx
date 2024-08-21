@@ -1,6 +1,6 @@
 import React from 'react'
 import MinTitle from '../Layout/MinTitle'
-import MidTitle from '../Layout/midTitle'
+import MidTitle from '../Layout/MidTitle'
 import LargeTitle from '../Layout/LargeTitle'
 import service1 from '../../assets/service1.png'
 import service2 from '../../assets/service2.png'

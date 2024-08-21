@@ -4,7 +4,7 @@ import laptopScreen from "../../assets/laptopScreen.png"
 import content1 from "../../assets/content1.png"
 import content2 from "../../assets/content2.png"
 import content3 from "../../assets/content3.png"
-import MidTitle from '../Layout/midTitle'
+import MidTitle from '../Layout/MidTitle'
 import MinTitle from '../Layout/MinTitle'
 import Features from './Features'
 const contentCardData = [

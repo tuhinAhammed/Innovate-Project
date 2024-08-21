@@ -1,5 +1,5 @@
 import React from 'react'
-import MidTitle from './midTitle'
+import MidTitle from './MidTitle'
 import MinTitle from './MinTitle'
 
 const Card = ({ className, cardImage, cardTitle, cardText }) => {
