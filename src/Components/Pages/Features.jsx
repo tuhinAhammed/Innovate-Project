@@ -8,7 +8,7 @@ import PrimaryButton from '../Layout/PrimaryButton'
 import Intergration from './Intergration'
 const Features = () => {
     return (
-        <div className='mt-[160px]'>
+        <div className='mt-[60px] md:mt-[160px]'>
             <div className='md:flex  justify-between gap-x-[80px]'>
                 <img src={element} alt="" />
                 <div>
@@ -23,7 +23,7 @@ const Features = () => {
                     </div>
                 </div>
             </div>
-            <Intergration/>
+            
         </div>
     )
 }

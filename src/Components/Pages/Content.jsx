@@ -27,7 +27,7 @@ const contentCardData = [
 ]
 const Content = () => {
     return (
-        <div className='mt-6 md:mt-[160px]'>
+        <div className='mt-[60px] md:mt-[160px]'>
 
             <div className="grid grid-cols-2 gap-x-10">
                 <h1 className="text-[46px] text-extrabold ">How simple is it to use our platform?</h1>
@@ -45,7 +45,7 @@ const Content = () => {
                     ))
                 }
             </div>
-            <Features/>
+            
         </div>
     )
 }

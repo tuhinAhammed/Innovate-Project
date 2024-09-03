@@ -2,6 +2,7 @@ import React from 'react'
 import Illustration from "../../assets/Illustration.png"
 import LargeTitle from '../Layout/LargeTitle'
 import MinTitle from '../Layout/MinTitle'
+import Pricing from './Pricing'
 const factData = [
     {
         title: "720+",
@@ -19,7 +20,8 @@ const factData = [
 ]
 const Facts = () => {
     return (
-        <div className='bg-secondary w-[1400px] h-[468px] rounded-[40px] mt-[140px] p-[70px] grid grid-cols-1 md:grid-cols-2 gap-x-[40px] overflow-hidden'>
+        <div>
+            <div className='bg-secondary w-full h-[468px] rounded-[40px] mt-[60px] md:mt-[140px] p-[70px] grid grid-cols-1 md:grid-cols-2 gap-x-[40px] overflow-hidden'>
             <img src={Illustration} alt="" />
             <div className="right">
                 <LargeTitle text="Trusted by 35,000+ happy customers." className="text-primary" />
@@ -34,6 +36,8 @@ const Facts = () => {
                     }
                 </div>
             </div>
+        </div>
+        
         </div>
     )
 }

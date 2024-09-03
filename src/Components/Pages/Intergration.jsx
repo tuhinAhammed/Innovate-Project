@@ -45,14 +45,14 @@ const intergrationData = [
 const Intergration = () => {
   return (
     <>
-    <div className='grid grid-cols-2'>
+    <div className='grid grid-cols-2 pt-[120px]'>
        <div>
        <MinTitle text="Integrations" className="text-[#FF7364] !text-[20px]"/>
         <LargeTitle text="Easily integrate with your favorite apps" className="" />
         <MinTitle text ="App integration, in a general sense, is the process of bringing resources or capabilities from one application to another. As the world of apps continues to evolve, app integration is becoming expected in many contexts." className="pt-[20px] pb-[40px]"/>
         <PrimaryButton text="Get Started" className="bg-[#3639A4] !text-primary hover:bg-opacity-[0.9] hover:!text-[#3639A4] " />
        </div>
-    <div className='grid-cols-2 md:grid grid-cols-3'>
+    <div className='grid grid-cols-2 md:grid grid-cols-3'>
         {
             intergrationData.map((item) => (
                 <img src={item.logo} alt="" className='w-[332px] h-[140px]'/>
@@ -60,7 +60,7 @@ const Intergration = () => {
         }
     </div>
     </div>
-    <Services/>
+    
     </>
   )
 }

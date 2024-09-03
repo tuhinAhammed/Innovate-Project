@@ -35,7 +35,7 @@ const servicesData =[
 const Services = ({}) => {
   return (
     <>
-    <div className='pt-[140px]'>
+    <div className='pt-[60px] md:pt-[140px]'>
         <div className='text-center'>
             <MinTitle text="Our Services" className="text-[#FF7364]"/>
             <LargeTitle text = "How It Works"/>
@@ -56,7 +56,7 @@ const Services = ({}) => {
         <PrimaryButton text="View More" className="bg-transparent text-secondary  border-2 border-secondary  rounded-lg"/>
         </div>
     </div>
-    <Facts/>
+    
     </>
   )
 } 
